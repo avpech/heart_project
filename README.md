@@ -85,6 +85,17 @@ uvicorn src.main:app --host 127.0.0.1 --port 8000 --reload
 
 В репозитории уже присутствует готовый файл с предсказаниями на тестовой выборке (`predictions.csv` в корне проекта)
 
+
+### Тетрадка jupyter (nb.ipynb)
+
+Окружение для тетрадки `nb.ipynb` хранится в `environment.yml`
+Для создания окружения в anaconda
+
+```bash
+conda env create -f environment.yml
+conda activate my
+```
+
 ##### Об авторе
 Артур Печенюк
 - :white_check_mark: [avpech](https://github.com/avpech)
