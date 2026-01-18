@@ -1,0 +1,9 @@
+services:
+
+  fastapi_metrics:
+    build: .
+    container_name: heart_risk
+    restart: always
+    ports:
+      - '8000:8000'
+    tty: true
