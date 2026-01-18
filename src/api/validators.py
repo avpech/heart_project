@@ -12,7 +12,7 @@ def validate_csv_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     errors = []
 
-    expected_columns = list(row_adapter.core_schema['schema']['fields'].keys())
+    expected_columns = list(row_adapter.core_schema["schema"]["fields"].keys())
 
     missing_cols = set(expected_columns) - set(df.columns)
     if missing_cols:
